@@ -1,7 +1,7 @@
 import talib as ta
 
 class TechnicalAnalysis:
-    def set_data(self, data):
+    def __init__(self, data):
         self.data = data
     
     def compute(self):
