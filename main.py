@@ -3,7 +3,7 @@ import random
 import warnings
 
 from env import Enviornment
-from preprocess import Preprocess
+from data_loader import Preprocess
 
 warnings.simplefilter('ignore')
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'

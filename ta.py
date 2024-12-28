@@ -4,7 +4,7 @@ class TechnicalAnalysis:
     def __init__(self, data):
         self.data = data
     
-    def compute(self):
+    def apply(self):
         self._add_macd()
         return self.data
     
